@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(51, 222, 205);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRePg35-LIxFnrZiMio2Oxn9lxlv5GVgrmd_g&s)
+
+    background-repeat: repeat-y;
+}
+p{
+    color: rgb(7, 6, 6);
+}
