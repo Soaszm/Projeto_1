@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Kevin - Homenagem</title>
+    <link rel="stylesheet" href="styles.css10">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>MC Kevin</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#biografia">Biografia</a></li>
+                <li><a href="#musicas">Músicas</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="biografia">
+        <h2>Biografia</h2>
+        <p>MC Kevin, nascido Kevin Nascimento Bueno, foi um cantor e compositor brasileiro de funk, conhecido por suas músicas de sucesso e sua personalidade autêntica. Ele fez grande sucesso com hits como "Cavalo de Troia" e "O Menino da Rocinha", conquistando fãs em todo o Brasil. Infelizmente, MC Kevin faleceu tragicamente em 2021, mas deixou um legado musical que continuará a inspirar gerações.</p>
+    </section>
+
+    <section id="musicas">
+        <h2>Músicas Populares</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=G0pKBoNG72I" target="_blank">Cavalo de Troia</a></li>
+            <li><a href="https://www.youtube.com/watch?v=aG5U6yX_oJ8" target="_blank">O Menino da Rocinha</a></li>
+            <li><a href="https://www.youtube.com/watch?v=9uYXqgHk29o" target="_blank">Vai no Baile</a></li>
+        </ul>
+    </section>
+
+    <section id="galeria">
+        <h2>Galeria</h2>
+        <div class="gallery">
+            <img src="https://via.placeholder.com/300x200?text=MC+Kevin+1" alt="MC Kevin 1">
+            <img src="https://via.placeholder.com/300x200?text=MC+Kevin+2" alt="MC Kevin 2">
+            <img src="https://via.placeholder.com/300x200?text=MC+Kevin+3" alt="MC Kevin 3">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Homenagem a MC Kevin</p>
+    </footer>
+</body>
+</html>

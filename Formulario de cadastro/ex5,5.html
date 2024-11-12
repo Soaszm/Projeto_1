@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 500px;
+            width: 500px;
+            background-color: rgb(212, 203, 203);
+            margin: 10px;
+            border-radius: 30px;
+        }
+        p{
+            margin: 15px;
+            line-height: 25px;
+            text-align: justify;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="colorButton">escuro</button>
+    <button id="colorButtonC">claro</button>
+    <div id="box">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus perferendis modi doloremque vel id. Excepturi magnam, iure modi quam, perferendis, dolorem temporibus sunt ipsum autem molestiae in maiores id natus. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id facere pariatur voluptatibus blanditiis voluptates, cupiditate tempora perspiciatis aliquam architecto magnam quis ipsum. Temporibus excepturi architecto repellendus soluta impedit eligendi voluptas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, provident tempora? Aliquam maxime doloremque ut dicta nobis dolorem nulla eius accusamus fugiat voluptatem enim nisi repellat eveniet iure, odio temporibus.</p>
+    </div>
+
+
+    <script>
+         document.getElementById('colorButton').onclick = function () {
+                document.getElementById('box').style.backgroundColor = 'black';
+                document.getElementById('box').style.color= 'white';
+            }
+            document.getElementById('colorButtonC').onclick = function () {
+                document.getElementById('box').style.backgroundColor = 'gray';
+                document.getElementById('box').style.color= 'black';
+            }
+
+    </script>
+    
+
+    
+</body>
+</html>
